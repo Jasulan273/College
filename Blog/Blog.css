@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 165px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 160px;
+}
+
+.logo img {
+  filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+.logo p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  color: #000f95;
+}
+
+.navbar {
+  width: 457px;
+  height: 76px;
+}
+
+.nav_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.adress,
+.post {
+  max-width: 260px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.adress {
+  margin-left: 10px;
+}
+
+.post {
+  margin-left: 37px;
+}
+
+.adress img {
+  margin-right: 5px;
+}
+
+.adress_text {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  position: relative;
+}
+
+.post_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.nav_links {
+  width: 457px;
+  height: 76px;
+  background: #d1dbe3;
+  box-shadow: 6px 24px 30px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 11px;
+}
+
+.nav_links a {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  transition: 0.2s all ease-in;
+}
+
+.nav_links a:hover {
+  color: #2f3996;
+}
+
+.blog_title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  color: #2580a7;
+  margin-top: 61px;
+  margin-left: 100px;
+}
+.blog_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 102px;
+}
+
+.blog_card img {
+  padding-right: 56px;
+  border-right: 4px solid #2580a7;
+}
+
+.blog_card h2 {
+  width: 862px;
+}
+
+footer {
+  margin-top: 100px;
+  height: 396px;
+  background-color: #a0cadc;
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+}
+
+.footer_links {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 820px;
+  padding-top: 3%;
+}
+
+.links {
+  margin-top: 50px;
+}
+
+.links h1 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.links h2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 438px;
+  margin-top: 18px;
+}
