@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 165px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 160px;
+}
+
+.logo img {
+  filter: drop-shadow(5px 4px 5px rgba(0, 0, 0, 0.25));
+}
+
+.logo p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 20px;
+  color: #000f95;
+}
+
+.navbar {
+  width: 457px;
+  height: 76px;
+}
+
+.nav_info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.adress,
+.post {
+  max-width: 260px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.adress {
+  margin-left: 10px;
+}
+
+.post {
+  margin-left: 37px;
+}
+
+.adress img {
+  margin-right: 5px;
+}
+
+.adress_text {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  position: relative;
+}
+
+.post_text {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.nav_links {
+  width: 457px;
+  height: 76px;
+  background: #d1dbe3;
+  box-shadow: 6px 24px 30px -14px rgba(0, 0, 0, 0.25);
+  border-radius: 204px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 11px;
+}
+
+.nav_links a {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  transition: 0.2s all ease-in;
+}
+
+.nav_links a:hover {
+  color: #2f3996;
+}
+
+.header {
+  height: 1160px;
+  background-image: url(image/header_bg.png);
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  text-align: center;
+  width: 729px;
+  color: #000000;
+  margin-top: 347px;
+}
+
+.slog_block h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 173px;
+}
+
+.slog_block h1 span {
+  color: #0075ff;
+}
+
+.slog_block h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #000000;
+  font-family: "Comfortaa";
+  margin-top: 24px;
+}
+
+.benefits {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.benefit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.benefit img {
+  margin-right: 16px;
+}
+
+.benefit_text h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+}
+
+.benefit_text h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: centr;
+}
+
+.advantage_content {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 63px;
+}
+
+.advantage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantage img {
+  width: 60px;
+  height: 60px;
+}
+
+.advantage h1 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 29px;
+}
+
+.advantage h2 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 12px;
+  max-width: 430px;
+}
+
+.news {
+  margin-top: 100px;
+  margin-bottom: 290px;
+}
+
+.news_content {
+  margin-top: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_block h1 {
+  max-width: 296px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 17px;
+}
+
+.news_block img {
+  transition: all 0.5s;
+}
+
+.news_block img:hover {
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+
+footer {
+  height: 396px;
+  background-color: #a0cadc;
+  position: relative;
+}
+
+footer img {
+  position: absolute;
+}
+
+.footer_links {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 820px;
+  padding-top: 3%;
+}
+
+.links {
+  margin-top: 50px;
+}
+
+.links h1 {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.links h2 {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  max-width: 438px;
+  margin-top: 18px;
+}
